@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 65.2%;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Orange: hsl(34, 97%, 64%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Blue: hsl(212, 86%, 64%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
