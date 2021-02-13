@@ -16,3 +16,75 @@ html{
     --Very-Dark-Blue: hsl(234, 12%, 34%);
     --Very-Light-Gray: hsl(0, 0%, 98%);
 }
+.main__content{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Very-Light-Gray);
+    padding: 4rem 1rem;
+}
+.presentation, .cards{
+    width: 100%;
+    align-self: center;
+}
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--Very-Dark-Blue);
+}
+.presentation__title{
+    font-size: 2.2rem;
+    font-weight: 300;
+}
+.presentation__subtitle{
+    font-size: 2.2rem;
+}
+.presentation__text{
+    width: 96%;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.cards{
+    margin-top: 5rem;
+}
+.card{
+    height: 20rem;
+    position:relative;
+    border-top: 3px solid var(--Cyan);
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    color: var(--Very-Dark-Blue);
+    box-shadow: 2px 7px 15px 1px #95A3B3;
+}
+.card__content{
+    padding: 2rem 1rem;
+    letter-spacing: .05rem;
+}
+.card__title{
+    font-size: 2rem;
+}
+.card__text{
+    font-size: 1.2rem;
+}
+.card__icon{
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 4rem;
+    bottom: 4rem;
+}
+
+.card:nth-child(2){
+    border-top: 3px solid var(--Red);
+}
+.card:nth-child(3){
+    border-top: 3px solid var(--Orange);
+}
+.card:nth-child(4){
+    border-top: 3px solid var(--Blue);
+}
+
